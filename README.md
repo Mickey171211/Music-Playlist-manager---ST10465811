@@ -3,7 +3,7 @@
 
 Repository - https://github.com/Mickey171211/Music-Playlist-manager---ST10465811.git 
 
-Main activity
+Main activity - A basic Android app activity for managing a music playlist by collecting user input, storing it in memory, and transitioning to a details screen. 
 
 ![Music Playlist Manager - ST10465811 – MainActivity kt  Music_Playlist_Manager_-_ST10465811 app main  6_19_2025 11_22_22 AM](https://github.com/user-attachments/assets/8c91b8e0-5e43-4833-bce5-21ea3518c3c3)
 
