@@ -7,4 +7,6 @@ Repository - https://github.com/Mickey171211/Music-Playlist-manager---ST10465811
 
 ![Music Playlist Manager - ST10465811 – MainActivity kt  Music_Playlist_Manager_-_ST10465811 app main  6_19_2025 11_22_31 AM](https://github.com/user-attachments/assets/abdb3679-c889-44fd-bfa1-ad06fba1b1ca)
 
+Main activty 
 
+![Music Playlist Manager - ST10465811 – MainActivity kt  Music_Playlist_Manager_-_ST10465811 app main  6_19_2025 11_22_31 AM](https://github.com/user-attachments/assets/ce6d144b-1bd1-4b62-b183-413675c07627)
