@@ -11,5 +11,4 @@ Main activity
 
 Detail activity 
 
-![Music Playlist Manager - ST10465811 – MainActivity kt  Music_Playlist_Manager_-_ST10465811 app main  6_19_2025 11_22_31 AM](https://github.com/user-attachments/assets/393affab-3279-456e-ba5e-1b800e121970)
-
+![Music Playlist Manager - ST10465811 – DetailActivity kt  Music_Playlist_Manager_-_ST10465811 app main  6_19_2025 11_24_09 AM](https://github.com/user-attachments/assets/56086d0a-df4f-48d5-8ecf-90089c6758c4)
