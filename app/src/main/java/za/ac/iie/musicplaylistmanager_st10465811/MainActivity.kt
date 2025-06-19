@@ -4,14 +4,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import android.content.Intent
-import android.os.PersistableBundle
 import android.widget.Button
 import android.widget.EditText
 
 class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
 
         val songTitles = arrayListOf<String>()
         val artistNames = arrayListOf<String>()
@@ -21,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.activity_main)
+
+
 
             val titleInput = findViewById<EditText>(R.id.songTitleInput)
             val artistInput = findViewById<EditText>(R.id.artistNameInput)
@@ -45,13 +44,28 @@ class MainActivity : AppCompatActivity() {
 
                     Toast.makeText(this, "Song added", Toast.LENGTH_SHORT).show()
 
-                    title
-
+                    titleInput.text.clear()
+                    artistInput.text.clear()
+                    ratingInput.text.clear()
+                    commentInput.text.clear()
+                }else {
+                    Toast.makeText(this, "Please fill in all fields and use rating 1-5", Toast.LENGTH_LONG).show()
                 }
+            }
 
+            viewDetailsButton.setOnClickListener {
+                val intent = Intent(this, DetailActivity::class.java)
+                intent.putStringArrayListExtra("titles", songTitles)
+                intent.putStringArrayListExtra("artist", artistNames)
+                intent.putIntegerArrayListExtra("ratings", ArrayList(songRatings))
+                intent.putStringArrayListExtra("comments", songComments)
+                startActivity(intent)
+            }
+
+            exitButton.setOnClickListener {
+                finish()
             }
 
         }
 
     }
-}
